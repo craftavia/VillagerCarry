@@ -1,0 +1,25 @@
+# VillagerCarry - carry villagers in an egg and place them somewhere else.
+# Pick up: sneak (Shift) and right-click a villager with an empty main hand.
+# Place:   right-click a block with the villager egg.
+# Apply changes with /villagercarry reload.
+
+# Worlds where villagers can be picked up and placed. Use the world folder name ("world"),
+# the full key ("minecraft:overworld") or the short key ("overworld"). Empty list = all worlds.
+worlds: []
+
+# Minimum time between two pick-ups/placements of the same player, in milliseconds.
+cooldown-ms: 1000
+
+# Can baby villagers be picked up?
+allow-babies: true
+
+# With WorldGuard installed, players can only pick up and place villagers where they are allowed
+# to build. Outside of regions (wilderness) it is always allowed. villagercarry.admin skips this check.
+worldguard-check: true
+
+# Write every pick-up and placement to the console (player, villager, location).
+log: true
+
+# Language for the console and for players whose client language has no messages file.
+# Players see messages_<their language>.properties when it exists (bundled: en, tr).
+default-language: en

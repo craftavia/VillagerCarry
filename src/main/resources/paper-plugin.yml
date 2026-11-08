@@ -1,0 +1,20 @@
+name: VillagerCarry
+version: '${version}'
+main: net.craftavia.villagercarry.VillagerCarryPlugin
+api-version: '1.21.4'
+description: Sneak + right-click a villager to carry it in an egg with its profession, trades and discounts.
+authors: [Craftavia]
+website: https://craftavia.net
+dependencies:
+  server:
+    WorldGuard:
+      load: BEFORE
+      required: false
+      join-classpath: true
+permissions:
+  villagercarry.use:
+    description: Pick up villagers and place them again.
+    default: true
+  villagercarry.admin:
+    description: Ignore WorldGuard checks and reload the configuration.
+    default: op
