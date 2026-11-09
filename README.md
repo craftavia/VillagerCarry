@@ -7,6 +7,8 @@ player sneaks, right-clicks the villager with an empty hand and gets a villager 
 with the egg puts the same villager back: same profession and level, same trades and uses, same reputation
 (so cured-villager discounts stay), same name.
 
+**Download:** [Hangar](https://hangar.papermc.io/mrpunky/VillagerCarry) · [GitHub Releases](https://github.com/craftavia/VillagerCarry/releases)
+
 ## Features
 
 - **Sneak + right-click** with an empty main hand to pick a villager up; **right-click a block** to place it.
@@ -89,6 +91,8 @@ The jar is written to `build/libs/`.
 Made by the Craftavia team, used on play.craftavia.net, https://craftavia.net
 
 ## Türkçe
+
+**İndir:** [Hangar](https://hangar.papermc.io/mrpunky/VillagerCarry) · [GitHub Releases](https://github.com/craftavia/VillagerCarry/releases)
 
 VillagerCarry, köylüyü **eğilip boş elle sağ tıklayarak yumurtaya almanızı** ve istediğiniz yere
 koymanızı sağlayan ücretsiz bir Paper eklentisidir. Meslek, seviye, takaslar, kullanım sayıları, itibar
