@@ -88,7 +88,12 @@ the plugin folder.
 
 The jar is written to `build/libs/`.
 
-Made by the Craftavia team, used on play.craftavia.net, https://craftavia.net
+### Example from Craftavia SMP
+
+When moving a librarian, keep a free inventory slot for the egg and put a lectern at the destination.
+The villager keeps its book offers and remaining trade uses and can restock after claiming its new workstation.
+The [Craftavia SMP villager guide (Turkish)](https://craftavia.net/smp-koylu-tasima) shows the steps players use on our server.
+The world list and cooldown for your installation are set in `config.yml`.
 
 ## Türkçe
 
@@ -107,7 +112,9 @@ kendine yenisini bulur.
 Kurulum: jar'ı `plugins/` klasörüne atın ve sunucuyu açın. Ayarlar `plugins/VillagerCarry/config.yml`
 dosyasındadır, değişiklikten sonra `/villagercarry reload` yazın.
 
-Craftavia ekibi tarafından geliştirildi, play.craftavia.net sunucusunda kullanılıyor: https://craftavia.net
+Craftavia SMP’de bir kütüphaneciyi taşırken yumurta için boş bir yuva ayırın ve gideceği yere bir kürsü koyun.
+Köylünün kitap takasları ve kalan kullanım hakları korunur. Yeni kürsüsünü sahiplendikten sonra stok yenileyebilir.
+[SMP köylü taşıma rehberinde](https://craftavia.net/smp-koylu-tasima) sunucumuzdaki adımları, geçerli dünyaları ve bekleme süresini bulabilirsiniz.
 
 ## License
 
